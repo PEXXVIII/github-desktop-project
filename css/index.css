@@ -1,6 +1,22 @@
+body{
+    text-align: center ;
+}
 input:focus{
     background-color: pink;
 }
 :target{
     border: 2px solid greenyellow;background-color: palevioletred;
+}
+
+.flex{
+    display: flex;
+    position: relative;
+}
+.left{
+    position: absolute;
+    margin-top: 10px;
+}
+.right{
+    position: absolute;
+    margin-left: 75rem;
 }
